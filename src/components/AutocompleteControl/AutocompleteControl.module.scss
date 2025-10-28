@@ -1,0 +1,39 @@
+.autocomplete {
+  position: relative;
+  width: 400px;
+
+  &__input {
+    width: inherit;
+    z-index: 1;
+  }
+
+  &__results {
+    z-index: 10;
+    width: 100%;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid gray;
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    display: none;
+    max-height: 300px;
+    overflow-y: auto;
+    &_visible {
+      display: block;
+    }
+  }
+
+  &__item {
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &:hover {
+      background-color: lightgray;
+    }
+  }
+}

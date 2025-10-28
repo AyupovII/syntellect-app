@@ -1,0 +1,8 @@
+.textControl{
+  display: flex;
+  gap: 20px;
+  &__buttons{
+    display: flex;
+    gap: 10px;
+  }
+}

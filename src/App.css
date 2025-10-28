@@ -1,0 +1,20 @@
+input{
+  width: 200px;
+  padding: 10px;
+}
+button{
+  padding: 10px;
+  transition: all 1s ease-out;
+  cursor: pointer;
+}
+
+section{
+  margin: 40px 0;
+  border-top: 1px solid green
+}
+section:first-child{
+  border-top: none
+}
+.container{
+  padding: 0 20px
+}
